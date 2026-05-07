@@ -1,0 +1,15 @@
+You MUST return strictly valid JSON.
+
+Do NOT return text.
+Do NOT add explanation.
+
+Format:
+{
+  "summary": "...",
+  "key_issues": ["...", "..."],
+  "business_impact": "..."
+}
+
+If format is broken, the system will reject your response.
+
+Input:
