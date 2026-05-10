@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00134d;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.form-container input {
+  padding: 15px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  background: #444;
+  color: white;
+  font-size: 18px;
+}
+
+.search-container {
+  margin-bottom: 30px;
+}
+
+.search-container input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background: #444;
+  color: white;
+  font-size: 18px;
+}
+
+.add-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.update-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  margin-top: 30px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+table {
+  width: 85%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: transparent;
+}
+
+table,
+th,
+td {
+  border: 1px solid gray;
+}
+
+th,
+td {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.chart-container {
+  width: 85%;
+  margin: 40px auto;
+  background: #02113b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.chart-container h2 {
+  color: white;
+  margin-bottom: 20px;
+}
